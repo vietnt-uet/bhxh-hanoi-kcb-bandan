@@ -25,7 +25,7 @@
   .stat .lbl{font-size:12px;color:var(--muted)}
   .stat.tran .num{color:var(--tran)} .stat.con .num{color:var(--con)}
   .stat.rieng .num{color:var(--rieng)} .stat.none .num{color:var(--none)}
-  .controls{position:sticky;top:0;background:var(--bg);padding:10px 0;z-index:5;
+  .controls{background:var(--bg);padding:10px 0;
     display:flex;flex-wrap:wrap;gap:10px;align-items:center;border-bottom:1px solid var(--line);margin-bottom:6px}
   input[type=search]{flex:1 1 240px;min-width:200px;padding:9px 12px;border:1px solid var(--line);
     border-radius:8px;font-size:14px;background:var(--card)}
@@ -38,7 +38,7 @@
   table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);
     border-radius:10px;overflow:hidden}
   th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
-  th{background:#fbfcfd;font-size:12.5px;color:var(--muted);font-weight:600;position:sticky;top:56px;z-index:1}
+  th{background:#fbfcfd;font-size:12.5px;color:var(--muted);font-weight:600}
   td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
   tr:last-child td{border-bottom:none}
   .code{font-weight:600;white-space:nowrap}
@@ -52,7 +52,7 @@
   .empty{padding:28px;text-align:center;color:var(--muted)}
   .note{font-size:12.5px;color:var(--muted);margin-top:16px;padding:12px 14px;background:var(--card);
     border:1px solid var(--line);border-radius:10px}
-  @media(max-width:640px){ .hide-sm{display:none} th{top:104px} h1{font-size:19px} }
+  @media(max-width:640px){ .hide-sm{display:none} h1{font-size:19px} }
 </style>
 </head>
 <body>
